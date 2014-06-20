@@ -1,0 +1,9 @@
+<div align="center">
+<br />
+<a href="$dlog.root()/">$!{g_site.friendlyName}</a>&nbsp;
+&#153;&nbsp;$date.get("yyyy")&nbsp;&copy;&nbsp;All Right Reserved.&nbsp;&nbsp;
+Powered by <a href="http://www.yaxin.tk" target="_blank">yaxin</a>&nbsp;
+#if($g_site && $dlog.not_empty(${g_site.icpNumber}))
+&nbsp;<a href="http://www.miibeian.gov.cn" target="_blank">${g_site.icpNumber}</a>
+#end
+</div>
